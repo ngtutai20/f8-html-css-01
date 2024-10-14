@@ -600,14 +600,15 @@ line-height: 64px; /* 100% */
 }
 
 .footer .row-logo {
+    display: flex;
+    justify-content: space-between;
     margin-top: 81px;
 }
 
-.footer .row-logo .logo {
+.footer .row-logo .aaa{
     color: #C2C2C2;
-    font-size: 1.4rrem;
+    font-size: 1.4rem;
     font-weight: 400;
-}
 
 
 
