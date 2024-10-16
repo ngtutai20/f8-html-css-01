@@ -325,6 +325,8 @@ a {
 }
 
 .featured .list .item  {
+    display: flex;
+    flex-wrap: nowrap;
     flex: 1;
     background: #fff;
     border-bottom-left-radius: 12px;
@@ -606,6 +608,8 @@ line-height: 64px; /* 100% */
 }
 
 .footer .row .item a{
+    display: inline-block;
+    width: max-content;
     color: #7A7A7E;
     font-size: 1.6rem;
     font-weight: 400;
