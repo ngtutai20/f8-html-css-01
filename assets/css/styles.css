@@ -5,6 +5,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior:smooth ;
 }
 
 :root {
@@ -61,14 +62,22 @@ a {
 
 .header {
     background: #E6F0FF;
-    height: 100vh;
+    height: calc( 100vh - 90px);
     position: relative;
 }
 
+.fixed-header{
+    background: #E6F0FF;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
 .navbar {
     display: flex;
     align-items: center;
-   padding-top: 38px;
+    padding: 12px 0;
+   /* padding-top: 38px; */
 }
 
 .navication {
@@ -109,7 +118,7 @@ a {
 }
 
 .hero .info {
-    margin-top: 138px;
+    padding-top: 138px;
     width: 51%;
 }
 

@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F8-project-01</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/03c5d9c12b3bf7c3ab02eb4afdacd2a6.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,57 +29,65 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <main>
+    
 
         <!-- ====header==== -->
 
+        <header class="fixed-header">
+            <div class="content">
+                <nav class="navbar">
+                    <!-- logo -->
+                        <a href="#home">
+                            <img src="./assets/img/Logo.svg" alt="Besnik.">
+                        </a>
+                    <!-- navication -->
+                        <ul class="navication">
+                            <li class="navication-item">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="navication-item">
+                                <a href="#featured">Features</a>
+                            </li>
+                            <li class="navication-item">
+                                <a href="#clients">Services</a>
+                            </li>
+                            <li class="navication-item">
+                                <a href="#guides">Resources</a>
+                            </li>
+                            <li class="navication-item">
+                                <a href="#stats">contact</a>
+                            </li>
+                        </ul>
+                    <!-- action -->
+                     <div class="action">
+                        <a href=""  class="action-link">
+                            Sign in
+                        </a>
+                        <a href="" class="btn action-btn" >
+                            Sign up
+                        </a>
+                     </div>
+                   </nav> 
+            </div>
+        </header>
+    <main id="home">
         <header class="header">
             <div class="content">
-               <nav class="navbar">
-                <!-- logo -->
-                    <img src="./assets/img/Logo.svg" alt="Besnik.">
-                <!-- navication -->
-                    <ul class="navication">
-                        <li class="navication-item">
-                            <a href="">Home</a>
-                        </li>
-                        <li class="navication-item">
-                            <a href="">Features</a>
-                        </li>
-                        <li class="navication-item">
-                            <a href="">Services</a>
-                        </li>
-                        <li class="navication-item">
-                            <a href="">Resources</a>
-                        </li>
-                        <li class="navication-item">
-                            <a href="">contact</a>
-                        </li>
-                    </ul>
-                <!-- action -->
-                 <div class="action">
-                    <a href=""  class="action-link">
-                        Sign in
-                    </a>
-                    <a href="" class="btn action-btn" >
-                        Sign up
-                    </a>
-                 </div>
-               </nav> 
+               
                <div class="hero">
-                <div class="info">
-                    <p class="sub-title">Welcome to Besnik Agency</p>
-                    <h1 class="title">Discover a place you'll love to live.</h1>
-                    <p class="desc">Get the best real estate deals first,
-                        before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
-                    <a href="#!" class="btn hero-cta">More About Us</a>
-                </div>
+                    <div class="info">
+                        <p class="sub-title">Welcome to Besnik Agency</p>
+                        <h1 class="title">Discover a place you'll love to live.</h1>
+                        <p class="desc">Get the best real estate deals first,
+                            before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
+                        <a href="#!" class="btn hero-cta">More About Us</a>
+                    </div>
 
-                <img src="./assets/img/house illustration.svg" alt="" class="img-hero">
+                    <img src="./assets/img/house illustration.svg" alt="" class="img-hero">
                </div>
             </div>
         </header>
-        <div class="clients">
+        <div class="clients" id="clients">
             <div class="content">
                 <div class="row">
                     <img src="./assets/img/Logo.svg" alt="">
@@ -95,7 +121,7 @@
             </div>
         </div>
         <!-- ====guides===== -->
-        <div class="guides">
+        <div class="guides" id="guides">
             <div class="content">
                 <h2 class="sub-title">How its works?</h2>
                 <p class="desc">
@@ -136,7 +162,7 @@
         </div>
 
         <!-- =====featured===== -->
-         <div class="featured">
+         <div class="featured" id="featured">
             <div class="content">
                 <header>
                     <h2 class="sub-title">Featured Properties</h2>
@@ -217,7 +243,7 @@
 
         <!-- ======stats===== -->
 
-        <div class="stats">
+        <div class="stats" id="stats">
             <div class="content">
                 <div class="row">
                     <div class="img-block">
@@ -312,7 +338,7 @@
                 </div>
             </div>
         </div>
-
+    </main>
         <!-- ======footer====== -->
 
         <footer class="footer">
@@ -387,6 +413,6 @@
                 </div>
             </div>
         </footer>
-    </main>
+    
 </body>
 </html>
